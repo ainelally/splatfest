@@ -1,0 +1,76 @@
+body{
+font-family: "Splatoon2";
+padding: 10px;
+image-rendering: pixelated;
+font-size: 12px;
+position: relative;
+background-image: url('background/splatween4.gif');
+background-size: 100%;
+background-attachment: fixed;
+cursor: url("icons/squidcursor.png"), auto;
+}
+
+a{
+cursor: url("icons/squidcursor.png"), auto;
+color: purple;
+}
+
+a:hover{
+font-style: italic;
+}
+
+a:visited{
+color:orange;
+}
+
+
+
+summary:hover{
+font-style: italic;
+}
+
+ 
+
+/* boxes */
+.container{
+width: 750px;
+max-height: 100%;
+border: 2px solid transparent;
+border-image: linear-gradient(to top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+border-image-slice: 1;
+padding: 10px;
+background-image: url('background/skulls.jpeg');}
+
+
+
+.footer{
+
+    border: 2px solid transparent;
+	border-image: linear-gradient(to top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+	border-image-slice: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+    padding: 2px;
+    background-image: url('background/skulls.jpeg');
+	
+} 
+
+
+  .gradient-text {
+    background-image: -webkit-linear-gradient(270deg,  #b827fc 0%, #2c90fc 25%, #fe447d 50%, #fec837 75%, #fd1892 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+
+
+
+.footer{
+width: 733px;
+height: 20x;
+align-self: flex-end;
+}
+
+
+

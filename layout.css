@@ -1,0 +1,238 @@
+
+body{
+font-family: "Splatoon2";
+padding: 10px;
+image-rendering: pixelated;
+font-size: 12px;
+position: relative;
+background-image: url('background/frostyfest.jpg');
+background-size: 100%;
+background-attachment: fixed;
+cursor: url('icons/squidcursor.gif'), pointer;
+}
+
+a{
+cursor: url('icons/squidcursor.gif'), pointer;
+color: orange;
+}
+
+a:hover{
+font-style: italic;
+}
+
+a:visited{
+color:purple;
+}
+
+
+
+summary:hover{
+font-style: italic;
+}
+
+
+ul{
+list-style-image: url("");
+text-align: left;
+padding-left: 30px;
+}
+
+li:hover{
+list-style-image: url("");
+}
+
+ 
+
+/* boxes */
+.container{
+width: 750px;
+max-height: 100%;
+border: 2px solid transparent;
+border-image: linear-gradient(to top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+border-image-slice: 1;
+padding: 10px;
+background-image: url(background/bg2.jpg);}
+
+.head img{
+padding: 0;
+margin-left:-20px;
+}
+
+.nav, .box1, .songbox, .imagemonth, .updates, .diary{
+    border: 2px solid transparent;
+	border-image: linear-gradient(to top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+	border-image-slice: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 5px;
+    padding: 2px;
+    background: white;
+	
+} 
+
+.main, .twoson, .wrap{
+width: 100%;
+display: flex;
+}
+
+.nav, .songbox{
+    width: 150px;
+    height: 300px;
+	
+} 
+
+
+
+
+.updates{
+	padding-top:2px;
+	 width: 260px;
+    height: 200px;
+	background-image: url('images/loadingscreen.gif');
+	color: white;
+	
+}
+.doll{
+
+    margin-top: 240px;
+	left: 346px;
+	width: 260px;
+    height: 200px;
+	position: absolute;
+	
+	
+}
+
+
+
+
+.coral{
+	vertical-align: top;
+	margin: 5px;
+    padding: 2px;
+	
+
+}
+
+.fakeads{
+	width: 750px;
+	
+}
+.imagemonth{
+	width:400px;
+}
+.leftjelly{
+	margin:5px;
+	padding: 2px;
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+.box1{
+    width: 400px;
+    height: 300px;
+    vertical-align: top;
+    text-align: left;
+    overflow: auto;
+}
+
+
+.diary{
+    width: 500px;
+    height: 500px;
+    vertical-align: top;
+    text-align: left;
+    overflow: auto;
+}
+
+.parent {
+  
+  margin: 5px;
+    padding: 2px;
+}
+.child {
+  
+  margin: 5px;
+    padding: 2px;
+}
+.float-left-child {
+  float: middle;
+}
+.float-center-child {
+  float: center;
+}
+
+
+
+.coral {
+	margin: 5px;
+    padding: 2px;
+	display: inline-block;
+
+	 float: left;
+}
+
+
+
+
+.stamps{
+	margin: 5px;
+    padding: 2px;
+	padding-top:2px;
+	width:150px;
+
+	position: absolute;
+}
+
+.blinkies{
+	margin: 5px;
+    padding: 2px;
+	padding-top:2px;
+
+	position: right;
+	
+}
+
+.abt{
+	border: 5px solid transparent;
+	border-image: url(images/loadingscreen.gif) ;
+	border-image-slice: 1;
+    padding-top:2px;
+	width: 400px;
+	margin: 5px;
+    overflow: auto;
+	background: white;
+}
+
+
+.next2nav{
+	
+	padding:2px;
+	 width: 100px;
+
+
+}
+
+
+
+
+
+.footer{
+
+    border: 2px solid transparent;
+	border-image: linear-gradient(to top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+	border-image-slice: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+    padding: 2px;
+    background-image: url(background/bg2.jpg);
+	color:white;
+width: 733px;
+height: 20x;
+align-self: flex-end;
+}
+
+
+
+
+
